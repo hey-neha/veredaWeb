@@ -53,21 +53,21 @@ import Imagirl from "../assets/GirlImage.png";
 const Hero = () => {
   return (
     <>
-      <header className="w-full h-auto bg-blue-950 flex flex-col md:flex-row md:justify-evenly px-5 md:px-10">
+      <header className="w-full h-auto  bg-[#161C2D] flex flex-col md:flex-row md:justify-evenly px-5 md:px-10">
         <div className="text-white font-bold mt-16 md:pr-10">
           <p className="text-sky-400 text-[14px] font-normal mb-4 md:ml-5">
             DEVELOP & GROW
           </p>
-          <h1 className="text-3xl line-clamp-3 md:ml-5  font-mono md:text-4xl">
+          <h1 className="text-3xl line-clamp-3 md:ml-5 text-[40px] font-bold md:text-4xl">
             Crafting bespoke Apps tailored <br /> to fuel your business's growth{" "}
             <br /> trajectory
           </h1>
-          <p className="font-light mt-5 md:ml-5 md:pr-10">
+          <p className=" font-normal leading-[30px] mt-5 md:ml-5 md:pr-10  opacity-70  ">
             We specialize in creating custom apps. Lorem ipsum dolor sit amet,
             consectetur adipisicing elit. Enim, sapiente? Lorem ipsum dolor sit
             amet. Maiores.
           </p>
-          <div className="mt-8 md:ml-5 p-3 w-56 bg-sky-400 rounded">
+          <div className="mt-8 md:ml-5 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
             <a className="text-center text-white" href="#">
               Get Started a Project
             </a>

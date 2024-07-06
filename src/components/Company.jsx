@@ -13,12 +13,12 @@ const Company = () => {
         {/* --------- companies around the world
       choose Vereda Digital Technology section--------- */}
         <div className="mt-5">
-          <h1 className=" text-sky-300  text-center md:text-[30px] font-bold md:mt-20 ">
+          <h1 className="  text-blue-300  text-center md:text-[30px] font-bold md:mt-20 ">
             {" "}
             More reasons why companies around the world <br />
             choose Vereda Digital Technology
           </h1>
-          <p className=" text-center  font-light md:px-72 md:mt-5 md:pl-80  md:mb-10">
+          <p className=" text-center    text-[#42526B] text-lg   font-light md:px-72 md:mt-5 md:pl-80  md:mb-10">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
             sint dolorum consequuntur asperiores veniam impedit aspernatur
             corporis quisquam qui et!

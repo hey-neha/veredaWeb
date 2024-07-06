@@ -123,14 +123,22 @@ import linkedin from "../assets/linkedingImg.png";
 
 const ProjectideaLast = () => {
   return (
-    <div className="w-full min-h-screen bg-blue-400 flex justify-center items-center p-4 md:p-14">
+    <div
+      className="w-full min-h-screen flex justify-center items-center p-4 md:p-14"
+      style={{
+        backgroundImage: `linear-gradient(170deg, #2A7EAC 70%, transparent 30%) `,
+        color: `white`,
+
+        // Gradient angle and colors
+      }}
+    >
       <div className="bg- flex flex-col md:flex-row md:justify-between w-full max-w-6xl">
         {/* Left section */}
         <div className="md:pr-8 md:mt-14">
           <h1 className="text-4xl text-white font-bold">
             Have a project idea! <br /> Drop me a line.
           </h1>
-          <p className="font-light mt-4 md:pr-10 text-white">
+          <p className="  mt-4 md:pr-10 text-white font-normal opacity-[70%]    ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur minima atque libero praesentium harum accusantium enim
             perspiciatis provident at fugit!
@@ -162,11 +170,11 @@ const ProjectideaLast = () => {
         </div>
 
         {/* Right section */}
-        <div className="bg-white w-full md:w-max h-auto text-center rounded-xl p-8 mt-8 md:mt-0">
+        <div className="bg-white w-full md:w-max h-auto text-center drop-shadow-2xl rounded-xl p-8 mt-8 md:mt-0">
           <h1 className="text-black md:text-2xl text-xl font-bold">
             Request A Quote - Let's work together.
           </h1>
-          <p className="px-5 mt-3 text-gray-400">
+          <p className="px-5 mt-3   text-lg text-[#42526B]    ">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A enim et
             ipsum pariatur corporis impedit similique commodi facere odit.
           </p>
@@ -218,10 +226,16 @@ const ProjectideaLast = () => {
               ></textarea>
             </div>
 
-            <div className="mt-4 p-3 md:w-1/2 bg-sky-400 rounded text-center">
+            {/*   <div className="mt-4 p-3 md:w-1/2 bg-sky-400 rounded text-center">
               <button className="text-white" type="submit">
                 Request A Quote
               </button>
+            </div> */}
+
+            <div className="mt-8 md:ml-5 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+              <a className="text-center text-white  font-bold " href="#">
+                Request a Quote
+              </a>
             </div>
           </form>
         </div>

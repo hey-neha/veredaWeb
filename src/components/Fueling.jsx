@@ -41,11 +41,11 @@ const Fueling = () => {
   return (
     <div className="bg-gray-100 w-full h-auto flex flex-col mt-20 items-center text-center px-4">
       <div>
-        <h1 className="text-sky-300 text-center text-xl sm:text-2xl md:text-3xl md:px-28 font-bold mt-10 md:mt-20">
+        <h1 className=" text-blue-300 text-center text-xl sm:text-2xl md:text-3xl md:px-28 font-bold mt-10 md:mt-20">
           Fueling Entrepreneurial Dreams with Tailored App Startups - Where
           Partnerships Thrive Beyond Client Relationships!
         </h1>
-        <p className="font-light mt-4 sm:mt-5 md:mt-5 text-base sm:text-lg md:text-xl mx-auto max-w-screen-md">
+        <p className=" text-[#42526B] text-lg font-light   mt-4 sm:mt-5 md:mt-5  sm:text-lg md:text-xl mx-auto max-w-screen-md">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis dicta
           itaque animi tempora, ducimus explicabo odit quia blanditiis quibusdam
           suscipit.
@@ -59,7 +59,11 @@ const Fueling = () => {
           src={Test}
           alt="Testimonial"
         />
-        <img className="md:mt-6 w-20 mx-auto  mb-5  md:mb-20" src={page} alt="Pagination" />
+        <img
+          className="md:mt-6 w-20 mx-auto  mb-5  md:mb-20"
+          src={page}
+          alt="Pagination"
+        />
       </div>
     </div>
   );

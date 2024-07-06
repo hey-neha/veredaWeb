@@ -3,7 +3,7 @@ import Img from "../assets/902.png";
 
 const ProjectIdea = () => {
   return (
-    <div className="flex flex-col md:flex-row md:justify-between md:pt-10 px-4 w-full h-auto bg-blue-950 ">
+    <div className="flex flex-col md:flex-row md:justify-between md:pt-10 px-4 w-full h-auto  bg-[#161C2D]">
       <div className="ml-20">
         <img className=" items-center  md:w-[700px] h-auto" src={Img} alt="" />
       </div>
@@ -17,7 +17,7 @@ const ProjectIdea = () => {
           natus, voluptates modi dignissimos unde?
         </p>
         <div className=" p-3 text-center  w-full md:w-1/2 bg-sky-400 text-white rounded">
-          <a className=" text-center" href="#">
+          <a className=" text-center font-bold" href="#">
             Talk To Our Export
           </a>
         </div>

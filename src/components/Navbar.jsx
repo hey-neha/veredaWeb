@@ -5,7 +5,7 @@ import womenImage from "../assets/GirlImage.png";
 export const Navbar = () => {
   return (
     <>
-      <nav className=" bg-blue-950 w-full  h-auto px-4 md:px-4   items-center ">
+      <nav className="bg-[#161C2D] w-full  h-auto px-4 md:px-4   items-center ">
         <div className=" flex justify-between py-3">
           {/*   px-10 pt-3 */}
           <div>
@@ -17,16 +17,29 @@ export const Navbar = () => {
             <li className="mx-[10px]">Support</li>
             <li className="mx-[10px]">Contact</li>
           </ul>
-          <div className=" hidden md:block  p-2 w-44 h-auto  mt-6 bg-sky-400 rounded">
+          {/*  <div className=" hidden md:block  p-2 w-44 h-auto  mt-6 bg-sky-400 rounded">
             {/*  w-44 h-auto  mt-10*/}
-            <a
-              className="text-center text-white flex flex-col md:flex md:justify-center"
-              href="#"
-            >
-              {" "}
+          {/* <a
+            className="text-center text-white flex flex-col md:flex md:justify-center"
+            href="#"
+          >
+            {" "}
+            Get Started a Project
+          </a> */}
+          {/*   </div> */}
+
+          {/* <div className=" hidden  mt-8 md:ml-5 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+            <a className="text-center text-white" href="#">
+              Get Started a Project
+            </a>
+          </div> */}
+
+          <div className="mt-8 md:ml-5 p-3 w-56 mb-4 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+            <a className="text-center text-white" href="#">
               Get Started a Project
             </a>
           </div>
+
           <div className="md:hidden">
             <a className="text-4xl" href="#">
               &#8801;

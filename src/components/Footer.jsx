@@ -7,7 +7,7 @@ import instagram from "../assets/instImg.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto bg-blue-950">
+    <div className="w-full h-auto  bg-[#161C2D]">
       <div className="flex flex-col md:flex-row md:justify-between pt-20 text-center mx-20 ">
         <div className="flex flex-col text-start">
           <img className="bg-white rounded-xl w-44" src={vereda} alt="" />
@@ -51,7 +51,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="w-full h-auto bg-blue-950 ">
+      <div className="w-full h-auto bg-[#161C2D]">
         <hr className="text-white md:mt-20" />
         <div className="text-center text-xl mt-10  text-white">
           @ 2024 - All rights reserved to vereda digital learning
