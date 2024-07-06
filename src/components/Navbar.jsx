@@ -5,11 +5,11 @@ import womenImage from "../assets/GirlImage.png";
 export const Navbar = () => {
   return (
     <>
-      <nav className="bg-[#161C2D] w-full  h-auto px-4 md:px-4   items-center ">
+      <nav className="bg-[#161C2D] w-full  h-auto px-4 md:px-4  items-center ">
         <div className=" flex justify-between py-3">
           {/*   px-10 pt-3 */}
-          <div>
-            <img className="md:ml-5" src={vereda} alt="" />
+          <div className="">
+            <img className="md:ml-5 " src={vereda} alt="" />
           </div>
           <ul className="md:flex hidden text-white /* mt-7 gap-6  */">
             <li className="mx-[10px]">Demos</li>
@@ -34,9 +34,12 @@ export const Navbar = () => {
             </a>
           </div> */}
 
-          <div className="mt-8 md:ml-5 p-3 w-56 mb-4 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
-            <a className="text-center text-white" href="#">
-              Get Started a Project
+          <div className=" hidden md:block mt-6 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+            <a
+              className="text-center text-[16px] flex justify-center text-white"
+              href="#"
+            >
+              Get Started a Projects
             </a>
           </div>
 

@@ -8,8 +8,8 @@ const Companies = () => {
   return (
     <>
       <div className="w-full h-auto ">
-        <div className=" mx-10 text-center md:mx-28 mt-10 md:mt-20 ">
-          <h1 className=" text-blue-300 text-center md:text-[30px] font-bold ">
+        <div className=" mx-10 text-center md:mx-28 mt-8 md:mt-20 ">
+          <h1 className="    text-center   text-xl sm:text-2xl md:text-3xl  font-semibold  md:mt-10 leading-tight  text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8]  text-[24px] lg:text-[36px] ">
             Big companies are here
           </h1>
           <p className="font-light  text-[#42526B] text-lg  md:px-32 md:mt-5 md:pl-52">

@@ -7,19 +7,29 @@ import instagram from "../assets/instImg.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto  bg-[#161C2D]">
+    <div className="w-full h-auto  bg-[#161C2D] text-center ">
       <div className="flex flex-col md:flex-row md:justify-between pt-20 text-center mx-20 ">
         <div className="flex flex-col text-start">
-          <img className="bg-white rounded-xl w-44" src={vereda} alt="" />
-          <h1 className=" text-gray-400 font-bold p-5">Address</h1>
-          <p className="text-gray-400">
+          <img
+            className="bg-white rounded-xl flex justify-center w-44"
+            src={vereda}
+            alt=""
+          />
+          <h1
+            className=" text-gray-400 font-bold pt-5 text-center md:flex 
+            md:justify-start
+          "
+          >
+            Address
+          </h1>
+          <p className="text-gray-400 text-center  md:mr-10 ">
             A block,5th floor , HUB(Maurya Complex) Patna 80001
           </p>
         </div>
         {/*        pages ---------*/}
         <div className="center">
-          <h1 className="text-white font-bold">PAGES</h1>
-          <ul className="flex flex-col gap-1 mt-4 text-start md:ml-6 text-gray-400 ">
+          <h1 className="text-white font-bold  ">PAGES</h1>
+          <ul className="flex flex-col gap-1 mt-4   text-gray-400 ">
             <li>Home</li>
             <li>About</li>
             <li>Service</li>
@@ -31,8 +41,8 @@ const Footer = () => {
         {/* support ----------------*/}
 
         <div>
-          <h1 className="text-white font-bold">SUPPORT</h1>
-          <ul className="flex flex-col gap-1 mt-4 text-start md:ml-8 text-gray-400 ">
+          <h1 className="text-white font-bold  ">SUPPORT</h1>
+          <ul className="flex flex-col gap-1 mt-4   text-gray-400 ">
             <li>Help</li>
             <li>Contact support</li>
           </ul>
@@ -40,13 +50,13 @@ const Footer = () => {
 
         {/*   social links --------------*/}
 
-        <div>
-          <h1 className="text-white font-bold">SOCIAL LINKS</h1>
-          <ul className="flex flex-col gap-2 mt-4 text-start md:ml-8 text-gray-400">
-            <img className="w-28" src={facebook} alt="" />
-            <img className="w-28" src={linkedin} alt="" />
-            <img className="w-28" src={twitter} alt="" />
-            <img className="w-28" src={instagram} alt="" />
+        <div className="text-center">
+          <h1 className="text-white font-bold text-center">SOCIAL LINKS</h1>
+          <ul className=" flex-col  gap-2 mt-4 flex justify-center   text-gray-400">
+            <img className="w-28 text-center" src={facebook} alt="" />
+            <img className="w-28 text-center" src={linkedin} alt="" />
+            <img className="w-28 text-center" src={twitter} alt="" />
+            <img className="w-28 text-center" src={instagram} alt="" />
           </ul>
         </div>
       </div>
