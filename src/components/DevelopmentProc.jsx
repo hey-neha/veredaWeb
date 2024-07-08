@@ -97,7 +97,7 @@ const DevelopmentProc = () => {
 
             <img className="w-16 h-16" src={myTVS} alt="" />
 
-            <img className="w-10 h-10 mt-5" src={beuty} alt="" />
+            <img className="w-10 h-10 mt-2" src={beuty} alt="" />
           </div>
         </div>
       </div>

@@ -8,10 +8,10 @@ import instagram from "../assets/instImg.png";
 const Footer = () => {
   return (
     <div className="w-full h-auto  bg-[#161C2D] text-center ">
-      <div className="flex flex-col md:flex-row md:justify-between pt-20 text-center mx-20 ">
+      <div className=" pt-5 md:pt-20 text-center mx-20 flex flex-col md:flex-row md:justify-between  ">
         <div className="flex flex-col text-start">
           <img
-            className="bg-white rounded-xl flex justify-center w-44"
+            className="bg-white rounded-xl ml-10 md:ml-2 flex justify-center w-44"
             src={vereda}
             alt=""
           />
@@ -41,8 +41,8 @@ const Footer = () => {
         {/* support ----------------*/}
 
         <div>
-          <h1 className="text-white font-bold  ">SUPPORT</h1>
-          <ul className="flex flex-col gap-1 mt-4   text-gray-400 ">
+          <h1 className="text-white font-bold ">SUPPORT</h1>
+          <ul className="flex flex-col mt-4 text-gray-400 ">
             <li>Help</li>
             <li>Contact support</li>
           </ul>
@@ -52,18 +52,18 @@ const Footer = () => {
 
         <div className="text-center">
           <h1 className="text-white font-bold text-center">SOCIAL LINKS</h1>
-          <ul className=" flex-col  gap-2 mt-4 flex justify-center   text-gray-400">
-            <img className="w-28 text-center" src={facebook} alt="" />
-            <img className="w-28 text-center" src={linkedin} alt="" />
-            <img className="w-28 text-center" src={twitter} alt="" />
-            <img className="w-28 text-center" src={instagram} alt="" />
+          <ul className=" flex-col  gap-2 mt-4 flex justify-center ml-20 mb-4 md:ml-2 text-gray-400">
+            <img className="w-20 md:w-28 text-center" src={facebook} alt="" />
+            <img className="w-20 md:w-28 text-center" src={linkedin} alt="" />
+            <img className="w-20 md:w-28 text-center" src={twitter} alt="" />
+            <img className="w-20 md:w-28 text-center" src={instagram} alt="" />
           </ul>
         </div>
       </div>
 
       <div className="w-full h-auto bg-[#161C2D]">
-        <hr className="text-white md:mt-20" />
-        <div className="text-center text-xl mt-10  text-white">
+        <hr className="text-white mt-6 md:mt-20" />
+        <div className="text-center text-[16px] md:mt-10 mt-4  text-white">
           @ 2024 - All rights reserved to vereda digital learning
         </div>
       </div>

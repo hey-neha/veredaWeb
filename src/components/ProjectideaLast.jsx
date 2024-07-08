@@ -174,7 +174,7 @@ const ProjectideaLast = () => {
           <h1 className="text-black md:text-2xl text-xl font-bold">
             Request A Quote - Let's work together.
           </h1>
-          <p className="px-5 mt-3   text-lg text-[#42526B]    ">
+          <p className="px-5 mt-3   text-lg text-[#42526B] ">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A enim et
             ipsum pariatur corporis impedit similique commodi facere odit.
           </p>

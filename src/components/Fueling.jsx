@@ -41,7 +41,7 @@ const Fueling = () => {
   return (
     <div className="bg-gray-100 w-full h-auto flex flex-col mt-20 items-center text-center px-4">
       <div>
-        <h1 className=" text-blue-300  text-xl sm:text-2xl md:text-3xl md:px-36  mt-10 md:mt-20  text-center md:text-[30px]  text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8] text-[24px] lg:text-[36px] font-semibold   ">
+        <h1 className="  text-xl sm:text-2xl md:text-3xl md:px-36  mt-10 md:mt-20  text-center md:text-[30px]  text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8] text-[24px] lg:text-[36px] font-semibold   ">
           Fueling Entrepreneurial Dreams with Tailored App Startups - Where
           Partnerships Thrive Beyond Client Relationships!
         </h1>

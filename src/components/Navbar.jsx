@@ -9,7 +9,11 @@ export const Navbar = () => {
         <div className=" flex justify-between py-3">
           {/*   px-10 pt-3 */}
           <div className="">
-            <img className="md:ml-5 " src={vereda} alt="" />
+            <img
+              className="md:ml-5 md:mt-5 md:w-36  h-auto "
+              src={vereda}
+              alt=""
+            />
           </div>
           <ul className="md:flex hidden text-white /* mt-7 gap-6  */">
             <li className="mx-[10px]">Demos</li>
@@ -34,9 +38,12 @@ export const Navbar = () => {
             </a>
           </div> */}
 
-          <div className=" hidden md:block mt-6 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+          <div
+            className=" hidden md:block  md:w-1/6 my-3 w-full
+            bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded"
+          >
             <a
-              className="text-center text-[16px] flex justify-center text-white"
+              className="text-center mt-3 text-[16px] flex justify-center text-white"
               href="#"
             >
               Get Started a Projects
