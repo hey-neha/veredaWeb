@@ -9,16 +9,18 @@ import ondemand from "../assets/Ondemandicon.png";
 const Company = () => {
   return (
     <>
-      <div className="bg-gray-100 w-full h-auto flex flex-col sm:mb-10 md:flex-col-6 lg:flex-col-4 gap-5 justify-evenly items-center ">
+      <div className="bg-gray-100 w-full h-auto flex flex-col sm:mb-10 md:flex-col-6 lg:flex-col-4 gap-5 justify-evenly items-center p-5 ">
         {/* --------- companies around the world
       choose Vereda Digital Technology section--------- */}
-        <div className=" mt-5 text-center  md:mt-10">
+        {/*  md:mt-10 */}
+        <div className=" mt-5 text-center  ">
           <h1 className="   text-center   text-xl sm:text-2xl md:text-3xl  font-semibold  md:mt-10 leading-tight  text-transparent bg-clip-text bg-gradient-to-r from-[#53ADE4] to-[#277BA8]  text-[24px] lg:text-[36px]   ">
             {" "}
             More reasons why companies around the world <br />
             choose Vereda Digital Technology
           </h1>
-          <p className=" text-center  text-[16px] lg:text-[20px]  text-[#42526B]    font-light md:px-72 md:mt-5 md:pl-80  md:mb-10">
+          {/*     md:mt-5   md:mb-10 */}
+          <p className=" text-center text-[16px] px-5  my-5 md:my-6 lg:my-10 md:px-20 lg:mx-32 lg:text-[20px]  text-[#42526B]  font-light">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima
             sint dolorum consequuntur asperiores veniam impedit aspernatur
             corporis quisquam qui et!

@@ -7,65 +7,72 @@ import instagram from "../assets/instImg.png";
 
 const Footer = () => {
   return (
-    <div className="w-full h-auto  bg-[#161C2D] text-center ">
-      <div className=" pt-5 md:pt-20 text-center mx-20 flex flex-col md:flex-row md:justify-between  ">
-        <div className="flex flex-col text-start">
-          <img
-            className="bg-white rounded-xl ml-10 md:ml-2 flex justify-center w-44"
-            src={vereda}
-            alt=""
-          />
-          <h1
-            className=" text-gray-400 font-bold pt-5 text-center md:flex 
-            md:justify-start
-          "
-          >
-            Address
-          </h1>
-          <p className="text-gray-400 text-center  md:mr-10 ">
-            A block,5th floor , HUB(Maurya Complex) Patna 80001
-          </p>
+    <div>
+      <div className="w-full h-auto pt-5 md:pt-14 lg:pt-28  bg-[#161C2D] flex flex-col md:flex-row justify-evenly text-center md:text-left space-y-8 md:space-y-0">
+        <div className="flex flex-col items-center md:items-start">
+          <img className="w-32 md:w-48" src={vereda} alt="Vereda" />
+          <div className="text-start mt-4 md:mt-6 ml-40 md:ml-7">
+            <h1 className="font-semibold text-white my-2 md:my-5">Address</h1>
+            {/*  mr-5 md:mr-10 lg:mr-60 */}
+            <p className="text-gray-400 ">
+              A block, 5th floor, B HUB (Maurya complex) <br /> Patna. 80001
+            </p>
+          </div>
         </div>
-        {/*        pages ---------*/}
-        <div className="center">
-          <h1 className="text-white font-bold  ">PAGES</h1>
-          <ul className="flex flex-col gap-1 mt-4   text-gray-400 ">
+
+        {/* Pages */}
+        <div className="flex flex-col items-center md:items-start">
+          <h1 className="font-semibold mb-2 md:mb-4 text-white">PAGES</h1>
+          <ul className="flex flex-col gap-1 md:gap-2 text-gray-400">
             <li>Home</li>
             <li>About</li>
-            <li>Service</li>
+            <li>Services</li>
             <li>Portfolio</li>
             <li>Contact Us</li>
             <li>Blogs</li>
           </ul>
         </div>
-        {/* support ----------------*/}
 
-        <div>
-          <h1 className="text-white font-bold ">SUPPORT</h1>
-          <ul className="flex flex-col mt-4 text-gray-400 ">
-            <li>Help</li>
-            <li>Contact support</li>
+        {/* Support */}
+        <div className="flex flex-col items-center md:items-start">
+          <h1 className="font-semibold mb-2 md:mb-4 text-white">SUPPORT</h1>
+          <ul className="flex flex-col gap-1 md:gap-2 text-gray-400">
+            <li>Help Center</li>
+            <li>Contact Support</li>
           </ul>
         </div>
 
-        {/*   social links --------------*/}
-
-        <div className="text-center">
-          <h1 className="text-white font-bold text-center">SOCIAL LINKS</h1>
-          <ul className=" flex-col  gap-2 mt-4 flex justify-center ml-20 mb-4 md:ml-2 text-gray-400">
-            <img className="w-20 md:w-28 text-center" src={facebook} alt="" />
-            <img className="w-20 md:w-28 text-center" src={linkedin} alt="" />
-            <img className="w-20 md:w-28 text-center" src={twitter} alt="" />
-            <img className="w-20 md:w-28 text-center" src={instagram} alt="" />
-          </ul>
+        {/* Social Links */}
+        <div className="flex flex-col items-center md:items-start ">
+          <h1 className="font-semibold text-white mb-2 md:mb-4">
+            SOCIAL LINKS
+          </h1>
+          <div className="flex  flex-col justify-center gap-3 ">
+            <img
+              className="w-10 md:w-16 lg:w-28"
+              src={facebook}
+              alt="Facebook"
+            />
+            <img
+              className="w-10 md:w-16 lg:w-28"
+              src={linkedin}
+              alt="LinkedIn"
+            />
+            <img className="w-10 md:w-16 lg:w-28" src={twitter} alt="Twitter" />
+            <img
+              className="w-10 md:w-16 lg:w-28"
+              src={instagram}
+              alt="Instagram"
+            />
+          </div>
         </div>
       </div>
 
-      <div className="w-full h-auto bg-[#161C2D]">
-        <hr className="text-white mt-6 md:mt-20" />
-        <div className="text-center text-[16px] md:mt-10 mt-4  text-white">
-          @ 2024 - All rights reserved to vereda digital learning
-        </div>
+      <div className="w-full bg-[#161C2D] h-auto p-5 md:p-20">
+        <hr className="" />
+        <p className="text-center mt-5 md:mt-7 text-white">
+          @2024-All rights reserved to vereda digital learning
+        </p>
       </div>
     </div>
   );

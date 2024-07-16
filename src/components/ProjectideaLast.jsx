@@ -124,7 +124,7 @@ import linkedin from "../assets/linkedingImg.png";
 const ProjectideaLast = () => {
   return (
     <div
-      className="w-full min-h-screen flex justify-center items-center p-4 md:p-14"
+      className="w-full h-auto flex justify-center items-center pt-4 md:pt-14 mb-20 md:mb-24"
       style={{
         backgroundImage: `linear-gradient(170deg, #2A7EAC 70%, transparent 30%) `,
         color: `white`,
@@ -171,72 +171,92 @@ const ProjectideaLast = () => {
 
         {/* Right section */}
         <div className="bg-white w-full md:w-max h-auto text-center drop-shadow-2xl rounded-xl p-8 mt-8 md:mt-0">
-          <h1 className="text-black md:text-2xl text-xl font-bold">
+          <h1 className="text-black md:text-2xl mr-5 text-xl font-bold">
             Request A Quote - Let's work together.
           </h1>
-          <p className="px-5 mt-3   text-lg text-[#42526B] ">
+          <p className="px-5 mt-3 text-start  text-lg text-[#42526B] ">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. A enim et
-            ipsum pariatur corporis impedit similique commodi facere odit.
+            ipsum pariatur corporis impedit Lorem.
           </p>
 
           {/* Form container */}
-          <form className="text-start mt-5" action="#">
-            <div className="flex flex-col md:flex-row md:justify-evenly ">
-              <div className="text-start md:mr-16">
-                <label htmlFor="name">Name</label>
+          {/* ----------------------- -----------------*/}
+
+          <form className="text-start w-full  mt-5" action="#">
+            {/*  name and email */}
+
+            <div className="flex flex-col w-full md:h-1/2 md:flex-row gap-4 md:gap-6 ">
+              {/*    name */}
+              <div>
+                <label className="text-black" htmlFor="#">
+                  Name
+                </label>
                 <br />
                 <input
-                  className="border p-2 px-5 rounded-md w-full"
+                  className="p-2 border rounded mt-2  w-full md:w-[230px] "
                   type="text"
                   placeholder="Full name"
-                  id="name"
                 />
               </div>
-
-              <div className="text-start">
-                <label htmlFor="email">Email</label>
+              {/*  email */}
+              <div>
+                <label className="text-black" htmlFor="#">
+                  Email
+                </label>
                 <br />
                 <input
-                  className="border p-2 px-5 rounded-md w-full"
-                  type="email"
-                  placeholder="Email"
-                  id="email"
+                  className="p-2 border rounded mt-2  w-full md:w-[230px]"
+                  type="text"
+                  placeholder="Email address"
                 />
               </div>
             </div>
 
-            <div className="mt-4">
-              <label htmlFor="subjects">Subjects</label>
+            {/* subjects---------------    */}
+            <div className="mt-2">
+              <label className="text-black" htmlFor="#">
+                Subjects
+              </label>
               <br />
               <input
-                className="border p-2 rounded-md w-full"
+                className="p-2 border rounded mt-2  w-full  "
                 type="text"
                 placeholder="Subjects"
-                id="subjects"
               />
             </div>
 
-            <div className="mt-4">
-              <label htmlFor="message">Message</label>
+            {/* text-area =----------------------------*/}
+
+            {/*  <div className="mt-2">
+              <label className="text-black" htmlFor="#">
+                Message
+              </label>
               <br />
               <textarea
+                className="p-2 border rounded mt-2  w-full"
+                type="text"
+                placeholder="Tell us abhout your project"
+              />
+            </div> */}
+
+            <div className="mt-2">
+              <label className="text-black block mb-2" htmlFor="message">
+                Message
+              </label>
+              <textarea
+                className="p-2 border rounded w-full resize-none"
                 id="message"
-                className="border p-2 rounded-md w-full"
                 placeholder="Tell us about your project"
               ></textarea>
             </div>
 
-            {/*   <div className="mt-4 p-3 md:w-1/2 bg-sky-400 rounded text-center">
-              <button className="text-white" type="submit">
-                Request A Quote
-              </button>
-            </div> */}
-
-            <div className="mt-8 md:ml-5 p-3 w-56  bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+            <div className="mt-3 p-3 w-56 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
               <a className="text-center text-white  font-bold " href="#">
                 Request a Quote
               </a>
             </div>
+
+            {/*  -----------------------  ------ */}
           </form>
         </div>
       </div>
