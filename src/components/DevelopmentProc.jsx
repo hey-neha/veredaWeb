@@ -123,7 +123,11 @@ const DevelopmentProc = () => {
               src={myTVS}
               alt=""
             />
-            <img className=" mx-auto md:mt-5" src={beuty} alt="" />
+            <img
+              className="w-12 h-12 mx-auto mt-4 md:mt-5 "
+              src={beuty}
+              alt=""
+            />
           </div>
         </div>
       </div>
