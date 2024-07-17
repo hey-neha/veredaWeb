@@ -41,7 +41,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className=" bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100  text-white rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
               {/* <img className="bg-gray-100   ml-3" src={Iosapp} alt="" /> */}
               <PiAndroidLogo
                 className="bg-gray-100 bg-transparent  w-[35px] h-[35px] md:w-[37px] md:h-[37px]"
@@ -64,7 +64,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 mb-2 md:mb-2 lg:mb-5 ">
+            <div className=" bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100  text-white rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 mb-2 md:mb-2 lg:mb-5 ">
               {/* <img className="bg-gray-100   ml-3" src={Iosapp} alt="" /> */}
               <RiAppleLine
                 className="bg-gray-100 bg-transparent w-[35px] h-[35px] md:w-[37px] md:h-[37px]"
@@ -111,11 +111,11 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-sky-50   text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
+            <div className=" bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100  text-white rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
               <CiMicrochip
                 className="bg-gray-100 bg-transparent  "
-                style={{ width: "35px", height: "35px" }}
+                style={{ width: "37px", height: "37px" }}
               />
             </div>
             <h2 className="text-xl font-bold">On-Demand Developers</h2>
@@ -133,7 +133,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-sky-50    text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className=" bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100  text-white rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
               <PiChalkboardTeacherLight
                 className="bg-gray-100 md:ml-1 bg-transparent "
@@ -159,7 +159,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
+            <div className=" bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100  text-white rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
 
               <SlPeople
