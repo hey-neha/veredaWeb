@@ -2,6 +2,7 @@ import React from "react";
 import project1 from "../assets/ProjecrtImg1.png";
 import project2 from "../assets/ProjectImg2.png";
 import project3 from "../assets/Project3.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 // const SelectProject = () => {
 //   return (
@@ -68,21 +69,37 @@ const SelectProject = () => {
           <h3 className="text-xl mt-3 md:mt-5 font-semibold">
             E-tutor-educations & online LMS
           </h3>
-          <p className="text-sky-400 mt-2 md:mt-3">View Case Study</p>
+          <div className="text-sky-400 flex flex-row gap-3  mt-2 md:mt-3">
+            <p className="text-sky-400 ">View Case Study</p>
+            <FaLongArrowAltRight
+              style={{ width: "20px", height: "20px", marginTop: "5px" }}
+            />
+          </div>
         </div>
+
         <div className="text-start w-[350px]">
           <img className="w-full h-auto" src={project2} alt="" />
           <h3 className="text-xl mt-3 md:mt-5 font-semibold">
             E-tutor-educations & online LMS
           </h3>
-          <p className="text-sky-400 mt-2 md:mt-3">View Case Study</p>
+          <div className="text-sky-400 flex flex-row gap-3  mt-2 md:mt-3">
+            <p className="text-sky-400 ">View Case Study</p>
+            <FaLongArrowAltRight
+              style={{ width: "20px", height: "20px", marginTop: "5px" }}
+            />
+          </div>
         </div>
         <div className="text-start w-[350px]">
           <img className="w-full h-auto" src={project3} alt="" />
           <h3 className="text-xl mt-3 md:mt-5 font-semibold">
             E-tutor-educations & online LMS
           </h3>
-          <p className="text-sky-400 mt-2 md:mt-3">View Case Study</p>
+          <div className="text-sky-400 flex flex-row gap-3  mt-2 md:mt-3">
+            <p className="text-sky-400 ">View Case Study</p>
+            <FaLongArrowAltRight
+              style={{ width: "20px", height: "20px", marginTop: "5px" }}
+            />
+          </div>
         </div>
       </div>
     </div>

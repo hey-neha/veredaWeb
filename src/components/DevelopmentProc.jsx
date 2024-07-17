@@ -6,6 +6,7 @@ import bright from "../assets/bright visin.png";
 import wconcil from "../assets/wconcil.png";
 import myTVS from "../assets/my tvs.png";
 import beuty from "../assets/beutySupply.png";
+import { CiMicrochip } from "react-icons/ci";
 
 const DevelopmentProc = () => {
   return (
@@ -25,7 +26,7 @@ const DevelopmentProc = () => {
         {/* bottom div */}
         <div className="flex flex-col md:flex-row text-center md:justify-around gap-12 mt-10">
           {/* content section */}
-          <div className="bg-[#FFF9EE] md:w-[500px] h-auto rounded-lg">
+          <div className="bg-[#FFF9EE] md:w-[500px] h-auto rounded-lg mb-2 md:mb-5">
             <div className="flex flex-col justify-center md:flex-row h-auto mt-5">
               <img className="w-10 h-10 ml-5" src={discoverImg} alt="" />
               <div className="gap-20 text-start px-5">
@@ -39,8 +40,13 @@ const DevelopmentProc = () => {
             </div>
             <hr className="mt-8" />
 
-            <div className="flex flex-col justify-center md:flex-row h-auto mt-5">
-              <img className="w-10 h-10 ml-5" src={design} alt="" />
+            <div className="flex flex-col justify-between md:flex-row mb-5 my-5 h-auto ">
+              <div className="ml-5">
+                <CiMicrochip
+                  className=" text-purple-600 w-10 h-10 "
+                  /* style={{ width: "35px", height: "35px" }} */
+                />
+              </div>
               <div className="gap-20 text-start px-5">
                 <h1 className="text-xl">Design</h1>
                 <p className="mr-4 text-[16px]">
@@ -50,33 +56,44 @@ const DevelopmentProc = () => {
                 </p>
               </div>
             </div>
+
             <hr className="mt-8" />
 
-            <div className="flex flex-col justify-center md:flex-row h-auto mt-5">
-              <img className="w-10 h-10 ml-5" src={design} alt="" />
+            <div className="flex flex-col justify-between md:flex-row my-5 mb-5 h-auto ">
+              <div className="ml-5">
+                <CiMicrochip
+                  className=" text-purple-600 w-10 h-10 "
+                  /* style={{ width: "35px", height: "35px" }} */
+                />
+              </div>
               <div className="gap-20 text-start px-5">
-                <h1 className="text-xl">Develop</h1>
-                <p className="px-2">
+                <h1 className="text-xl">Design</h1>
+                <p className="mr-4 text-[16px]">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Fugiat sed iure quos quas ratione facere deserunt assumenda
                   iusto. Voluptatibus, minima!
                 </p>
               </div>
             </div>
+
             <hr className="mt-8" />
 
-            <div className="flex flex-col justify-center md:flex-row h-auto mt-5">
-              <img className="w-10 h-10 ml-5" src={design} alt="" />
+            <div className="flex flex-col justify-between md:flex-row my-5 mb-5 h-auto ">
+              <div className="ml-5">
+                <CiMicrochip
+                  className=" text-purple-600 w-10 h-10 "
+                  /* style={{ width: "35px", height: "35px" }} */
+                />
+              </div>
               <div className="gap-20 text-start px-5">
-                <h1 className="text-xl">Test</h1>
-                <p className="px-2">
+                <h1 className="text-xl">Design</h1>
+                <p className="mr-4 text-[16px]">
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Fugiat sed iure quos quas ratione facere deserunt assumenda
                   iusto. Voluptatibus, minima!
                 </p>
               </div>
             </div>
-            <hr className="mt-8" />
           </div>
 
           {/* image section */}

@@ -120,6 +120,12 @@ import React from "react";
 import facebook from "../assets/facebook.png";
 import twitter from "../assets/twitter.png";
 import linkedin from "../assets/linkedingImg.png";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaFacebookF } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const ProjectideaLast = () => {
   return (
@@ -138,19 +144,20 @@ const ProjectideaLast = () => {
           <h1 className="text-4xl text-white font-bold">
             Have a project idea! <br /> Drop me a line.
           </h1>
-          <p className="  mt-4 md:pr-10 text-white font-normal opacity-[70%]    ">
+          <p className="  mt-4 md:pr-10 text-white font-normal opacity-[70%]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Consequuntur minima atque libero praesentium harum accusantium enim
             perspiciatis provident at fugit!
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 mt-5">
-            <div>
-              <img
+            <div className="bg-gray-100 bg-opacity-20 w-12 md:w-12 lg:w-14 text-center rounded-full p-2 ">
+              {/* <img
                 className="w-10 rounded-full h-auto mt-4"
                 src="https://img.freepik.com/premium-vector/email-envelope-concept_34259-135.jpg"
                 alt=""
-              />
+              /> */}
+              <MdOutlineEmail className=" flex justify-center w-9 h-auto mr-5 md:mr-10" />
             </div>
             <div>
               <p className="text-gray-300">Email Us</p>
@@ -161,10 +168,19 @@ const ProjectideaLast = () => {
           {/* Connect with us */}
           <div className="pt-10">
             <p className="text-white">- Connect with us:</p>
-            <div className="flex mt-2 gap-4">
-              <img className="w-10 h-auto" src={facebook} alt="" />
-              <img className="w-10 h-auto" src={twitter} alt="" />
-              <img className="w-10 h-auto" src={linkedin} alt="" />
+            <div className="flex flex-row   mt-2 gap-2 ">
+              <div className=" bg-gray-100  hover:bg-blue-500 bg-opacity-5 p-2 rounded">
+                <FaFacebookF className="w-5 h-5 text-white" />
+              </div>
+              <div className="bg-white text-blue-700 p-2 rounded">
+                <FaTwitter className="w-5 h-5" />
+              </div>
+              <div className="bg-gray-400 bg-opacity-20 p-2 rounded">
+                <FaLinkedinIn className="w-5 h-5" />
+              </div>
+              <div className="bg-gray-400 bg-opacity-20 p-2 rounded">
+                <FaInstagram className="w-5 h-5" />
+              </div>
             </div>
           </div>
         </div>
@@ -250,10 +266,11 @@ const ProjectideaLast = () => {
               ></textarea>
             </div>
 
-            <div className="mt-3 p-3 w-56 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+            <div className="mt-3 p-3 w-56 flex flex-row gap-3 justify-center bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
               <a className="text-center text-white  font-bold " href="#">
                 Request a Quote
               </a>
+              <FaLongArrowAltRight className="w-6 h-6" />
             </div>
 
             {/*  -----------------------  ------ */}

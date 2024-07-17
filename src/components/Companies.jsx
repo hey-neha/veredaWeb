@@ -91,7 +91,7 @@ const Companies = () => {
             alt=""
           />
           <img
-            className="w-20 md:w-28 md:mt-4 h-auto mx-auto"
+            className="w-20 md:w-28 md:mt-5 h-auto mx-auto"
             src={dailyhunt}
             alt=""
           />

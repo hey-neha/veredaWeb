@@ -10,22 +10,23 @@ import Number from "./components/Number";
 import ProjectIdea from "./components/ProjectIdea";
 import ProjectideaLast from "./components/ProjectideaLast";
 import SelectProject from "./components/SelectProject";
+import Card from "./components/Card";
 
 function App() {
   return (
     <>
       <Navbar />
       {/* <Hero/> */}
-      <Hero/>
-      <Number/>
-      <Companies/>
-      <Company/>
-      <DevelopmentProc/>
-      <Fueling/>
-      <ProjectIdea/>
-      <SelectProject/>
-      <ProjectideaLast/>
-      <Footer/>
+      <Hero />
+      <Number />
+      <Companies />
+      <Company />
+      <DevelopmentProc />
+      <Fueling />
+      <ProjectIdea />
+      <SelectProject />
+      <ProjectideaLast />
+      <Footer />
     </>
   );
 }

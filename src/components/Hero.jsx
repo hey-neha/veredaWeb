@@ -49,6 +49,7 @@
 
 import React from "react";
 import Imagirl from "../assets/GirlImage.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -69,10 +70,11 @@ const Hero = () => {
             amet. Maiores Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Expedita.
           </p>
-          <div className="mt-8 md:ml-5 p-3 w-56  mb-5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
+          <div className="mt-8 md:ml-5 p-3 w-56 flex flex-row gap-2  mb-5 bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 rounded">
             <a className="text-center flex justify-center text-white" href="#">
               Get Started a Project
             </a>
+            <FaLongArrowAltRight className="mt-1 " />
           </div>
         </div>
 
