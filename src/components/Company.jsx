@@ -41,7 +41,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
               {/* <img className="bg-gray-100   ml-3" src={Iosapp} alt="" /> */}
               <PiAndroidLogo
                 className="bg-gray-100 w-[35px] h-[35px] md:w-[37px] md:h-[37px]"
@@ -50,10 +50,10 @@ const Company = () => {
               />
             </div>
             <h2 className="text-xl font-bold">Ios App Development</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-2 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2 md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
@@ -64,7 +64,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 mb-2 md:mb-2 lg:mb-5 ">
               {/* <img className="bg-gray-100   ml-3" src={Iosapp} alt="" /> */}
               <RiAppleLine
                 className="bg-gray-100 w-[35px] h-[35px] md:w-[37px] md:h-[37px]"
@@ -73,10 +73,10 @@ const Company = () => {
               />
             </div>
             <h2 className="text-xl font-bold">Ios App Development</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-2 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2 md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
@@ -87,7 +87,8 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16    text-center ml-24 md:mb-2 lg:mb-5 ">
+           {/*   bg-gradient-to-r from-[#53ADE4] to-[#277BA8] opacity-100 */}
+            <div className=" bg-sky-50 text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16    text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
               {/* <img className="bg-gray-100   ml-3" src={Iosapp} alt="" /> */}
               <PiPenNibStraight
                 className="bg-gray-100 w-[35px] h-[35px] md:w-[37px] md:h-[37px]"
@@ -96,10 +97,10 @@ const Company = () => {
               />
             </div>
             <h2 className="text-xl font-bold">Full stack Development</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-2 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2 md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
@@ -110,7 +111,7 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
               <CiMicrochip
                 className="bg-gray-100"
@@ -118,10 +119,10 @@ const Company = () => {
               />
             </div>
             <h2 className="text-xl font-bold">On-Demand Developers</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-2 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2 md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
@@ -132,40 +133,45 @@ const Company = () => {
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
               <PiChalkboardTeacherLight
-                className="bg-gray-100"
+                className="bg-gray-100 md:ml-1"
                 style={{ width: "35px", height: "35px" }}
               />
             </div>
             <h2 className="text-xl font-bold">On-Demand Developers</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-1 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2  md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
           </div>
+          {/* <SlPeople
+                className="bg-gray-100"
+                style={{ width: "35px", height: "35px" }}
+              /> */}
 
           <div
             className="bg-white w-[360px] h-60 p-10 rounded-xl text-center flex 
             flex-col
           justify-center "
           >
-            <div className="bg-gray-100  text-sky-400 rounded-lg my-5  h-auto p-3 w-10 md:w-16  text-center ml-24 md:mb-2 lg:mb-5 ">
+            <div className="bg-sky-50  text-sky-400 rounded-lg my-5  h-auto p-3 w-14 md:w-16  text-center ml-24 mb-3 md:mb-2 lg:mb-5 ">
               {/*  <img className="bg-gray-100  ml-3" src={ondemand} alt="" /> */}
+
               <SlPeople
                 className="bg-gray-100"
                 style={{ width: "35px", height: "35px" }}
               />
             </div>
             <h2 className="text-xl font-bold">On-Demand Developers</h2>
-            <p className="font-light md:mt-2">
+            <p className="font-light mt-1 md:mt-2">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque,
             </p>
-            <div className="md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
+            <div className=" mt-2 md:mt-3 text-sky-400 mb-5 flex flex-row justify-center gap-3">
               <p>Learn More</p>
               <FaLongArrowAltRight className="w-[30px] h-[30px]" />
             </div>
