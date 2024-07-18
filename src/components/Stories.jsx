@@ -22,7 +22,7 @@ const Stories = () => {
   const goToSlide = (index) => {
     setCurrentSlide(index);
   };
-  
+
 
   return (
     <>
@@ -33,17 +33,28 @@ const Stories = () => {
         className="absolute  w-[42rem] rotate-12 -right-10 -top-40 z-10"
       />
       <div className="md:space-y-10 space-y-5">
+       {/*  ------- */}
         <div className="flex items-center justify-between pr-20">
+          {/*   ---------- */}
+
           <h1 className="md:text-6xl text-3xl " style={{ fontFamily: 'Proxima-Nova-Bold, sans-serif', lineHeight: '89.5px' }}>Happy Stories</h1>
+
           <div className="flex items-center gap-4 z-10">
             <IoArrowBack className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={prevSlide} />
             <IoArrowForward className="md:w-10 md:h-10 hover:bg-[#009BDA] rounded-full cursor-pointer" onClick={nextSlide} />
           </div>
+
+
         </div>
+
+
         <p className="md:text-2xl text-xl w-[50rem]" style={{ fontFamily: 'Proxima-Nova-Regular, sans-serif',letterSpacing: '2%', lineHeight: '42px' }}>
           Dive into stories of unexpected friendships, love that blossoms in the most extraordinary places, and dreams that come true against all odds.
         </p>
+
       </div>
+
+      
       <div className="md:flex items-center justify-between  ">
         {stories.map((story, index) => (
           <div key={index} className={relative ${index == currentSlide ? 'block' : ''}}>
