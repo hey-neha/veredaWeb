@@ -1,8 +1,4 @@
-import React from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
-import { FaStar } from "react-icons/fa";
+import React, { useState } from "react";
 
 const Card = () => {
   const data = [
@@ -52,74 +48,67 @@ const Card = () => {
         "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi, assumenda aliquam minus debitis consequatur inventore amet autem! Voluptatum, necessitatibus accusamus Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum veritatis excepturi odit dolorem vel rem deserunt, ullam iure explicabo enim!.",
     },
   ];
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    appendDots: (dots) => (
-      <div
-        style={{
-          position: "absolute",
-          bottom: "-70px", // Adjust this value as needed
-          width: "100%",
-          fontSize: "40px",
-          color: "skyblue",
-        }}
-      >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
-      </div>
-    ),
+  const nextSlide = () => {
+    setCurrentSlide((prevSlide) =>
+      prevSlide === data.length - 1 ? 0 : prevSlide + 1
+    );
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prevSlide) =>
+      prevSlide === 0 ? data.length - 1 : prevSlide - 1
+    );
   };
 
   return (
-    <div className=" w-full md:w-1/2 m-auto rounded-xl p-7 my-5 md:my-8 md:p-8  border-4 border-sky-400">
-      <div className="">
-        <Slider {...settings}>
-          {data.map((card) => {
-            return (
-              <>
-                <div key={card.id}>
-                  {/*    for image  and ttitle*/}
-
-                  <div className="flex justify-center gap-3 mr-16 md:mr-40 lg:mr-80">
-                    {/*       image */}
-                    <div className="w-10 md:w-11 mt-2">
-                      <img className="rounded-full" src={card.image} alt="" />
-                    </div>
-                    {/*     title */}
-
-                    <div>
-                      <h1 className="font-semibold">{card.name}</h1>
-                      <p className=" text-gray-400">{card.title}</p>
-                    </div>
-                  </div>
-                  {/*    paragraph section */}
-                  <div className="mx-10 mt-5 md:mt-10">
-                    <p className="text-start">{card.description}</p>
-                  </div>
+    <div className="w-full md:w-[50%] m-auto rounded-xl p-7 my-5 md:my-8 md:p-8 border-4 border-sky-400">
+      <div className="relative flex items-center overflow-hidden">
+        <button
+          className="absolute left-0 z-10 p-2 bg-gray-200 rounded-full"
+          onClick={prevSlide}
+        ></button>
+        <div
+          className="flex transition-transform duration-500 ease-in-out"
+          style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+        >
+          {data.map((card) => (
+            <div key={card.id} className="min-w-full flex flex-col  gap-5 p-4">
+              <div className="flex items-center gap-3">
+                <div className="">
+                  <img
+                    className="rounded-full w-10 h-10"
+                    src={card.image}
+                    alt={card.name}
+                  />
                 </div>
-
-                <div className="flex flex-row justify-start my-5 md:my-6 ml-9 gap-2 md:ml-8">
-                  <FaStar className="text-orange-500 w-7 h-7" />
-                  <FaStar className="text-orange-500 w-7 h-7" />
-                  <FaStar className="text-orange-500 w-7 h-7" />
-                  <FaStar className="text-orange-500 w-7 h-7" />
-                  <FaStar className="text-orange-500 w-7 h-7" />
+                <div>
+                  <h1 className="font-semibold">{card.name}</h1>
+                  <p className="text-gray-400">{card.title}</p>
                 </div>
-              </>
-            );
-          })}
-          {/* Star Rating Section */}
-
-          {/*  <div>
-            {[...Array(5)].map((start) => {
-              return <FaStar className="text-orange-500" />;
-            })}
-          </div> */}
-        </Slider>
+              </div>
+              <div className="mt-5 md:mt-0 px-16">
+                <p className="text-start ">{card.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <button
+          className="absolute right-0 z-10 p-2 bg-gray-200 rounded-full"
+          onClick={nextSlide}
+        ></button>
+      </div>
+      <div className="flex justify-center mt-4 ">
+        {data.map((_, index) => (
+          <div
+            key={index}
+            className={`w-3 h-3 mx-1 rounded-full cursor-pointer ${
+              currentSlide === index ? "bg-sky-400" : "bg-sky-200"
+            }`}
+            onClick={() => setCurrentSlide(index)}
+          ></div>
+        ))}
       </div>
     </div>
   );
